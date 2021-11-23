@@ -1,0 +1,100 @@
+{
+  "node": "v17.1.0",
+  "system": {
+    "manufacturer": "HP",
+    "model": "HP Pavilion Laptop 14-ce0xxx"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-8250U",
+    "speed": 1.6
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Home",
+    "release": "10.0.19043"
+  },
+  "vscodeInfo": {
+    "version": "1.62.3",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "andrejunges.Handlebars",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "CoenraadS.bracket-pair-colorizer",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.jshint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "firefox-devtools.vscode-firefox-debug",
+      "formulahendry.code-runner",
+      "GitHub.vscode-pull-request-github",
+      "hdg.live-html-previewer",
+      "HookyQR.beautify",
+      "ms-azuretools.vscode-docker",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-toolsai.jupyter",
+      "ms-toolsai.jupyter-keymap",
+      "ms-toolsai.jupyter-renderers",
+      "ms-vscode.brackets-keybindings",
+      "msjsdiag.debugger-for-chrome",
+      "oderwat.indent-rainbow",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "techer.open-in-browser"
+    ],
+    "userSettings": {
+      "editor.detectIndentation": false,
+      "editor.formatOnSave": true,
+      "editor.minimap.enabled": false,
+      "editor.renderIndentGuides": true,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "eslint.autoFixOnSave": true,
+      "files.autoSave": "onFocusChange",
+      "prettier.singleQuote": true,
+      "prettier.trailingComma": "all",
+      "terminal.integrated.defaultProfile.windows": "PowerShell",
+      "workbench.editor.enablePreview": false,
+      "workbench.preferredLightColorTheme": "Visual Studio Light",
+      "workbench.colorTheme": "Quiet Light",
+      "editor.wordWrap": "on",
+      "emmet.preferences": {},
+      "editor.fontLigatures": null,
+      "editor.formatOnPaste": true,
+      "cSpell.userWords": [
+        "anotherfunction",
+        "Asabeneh",
+        "Catergory",
+        "Helaas",
+        "leeftijd",
+        "longjump",
+        "mbills",
+        "myobj",
+        "naam",
+        "peanutbutter",
+        "pindakaas",
+        "Porcello",
+        "qwertyuiop",
+        "React's",
+        "removedbooks",
+        "tospend",
+        "weeronline",
+        "Yetayeh"
+      ],
+      "workbench.editorAssociations": {
+        "*.js": "default"
+      }
+    }
+  }
+}

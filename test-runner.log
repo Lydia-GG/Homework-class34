@@ -1,0 +1,568 @@
+2021-11-20 10:44:03 info: ---------------------------------------
+2021-11-20 10:44:03 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 10:44:03 info: ---------------------------------------
+2021-11-20 10:44:11 error: *** Unit Test Error Report ***
+
+  console.log
+    John Doe
+
+      at 3-UsingAPIs/Week1/homework/ex1-johnWho.js:28:26
+
+
+2021-11-20 10:44:32 info: Disclaimer turned off
+2021-11-20 10:44:41 info: ---------------------------------------
+2021-11-20 10:44:41 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 10:44:41 info: ---------------------------------------
+2021-11-20 10:44:47 error: *** Unit Test Error Report ***
+
+  console.log
+    John Doe
+
+      at 3-UsingAPIs/Week1/homework/ex1-johnWho.js:28:26
+
+
+2021-11-20 10:52:08 info: ---------------------------------------
+2021-11-20 10:52:08 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 10:52:08 info: ---------------------------------------
+2021-11-20 10:52:16 error: *** Unit Test Error Report ***
+
+  console.log
+    John Doe
+
+      at 3-UsingAPIs/Week1/homework/ex1-johnWho.js:28:26
+
+
+2021-11-20 10:59:14 info: ---------------------------------------
+2021-11-20 10:59:14 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 10:59:14 info: ---------------------------------------
+2021-11-20 10:59:21 error: *** Unit Test Error Report ***
+
+  console.log
+    John Doe
+
+      at 3-UsingAPIs/Week1/homework/ex1-johnWho.js:28:26
+
+
+2021-11-20 10:59:58 info: ---------------------------------------
+2021-11-20 10:59:58 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 10:59:58 info: ---------------------------------------
+2021-11-20 11:00:04 error: *** Unit Test Error Report ***
+
+  console.log
+    John Doe
+
+      at 3-UsingAPIs/Week1/homework/ex1-johnWho.js:28:26
+
+
+2021-11-20 11:58:14 info: ---------------------------------------
+2021-11-20 11:58:14 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 11:58:14 info: ---------------------------------------
+2021-11-20 11:58:22 error: *** Unit Test Error Report ***
+
+  console.log
+    John Doe
+
+      at 3-UsingAPIs/Week1/homework/ex1-johnWho.js:28:26
+
+
+2021-11-20 11:59:08 info: ---------------------------------------
+2021-11-20 11:59:08 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 11:59:08 info: ---------------------------------------
+2021-11-20 11:59:15 error: *** Unit Test Error Report ***
+
+  console.log
+    John Doe
+
+      at 3-UsingAPIs/Week1/homework/ex1-johnWho.js:28:26
+
+
+2021-11-20 01:33:22 info: ---------------------------------------
+2021-11-20 01:33:22 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 01:33:22 info: ---------------------------------------
+2021-11-20 01:33:30 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js
+  getAnonName
+    √ should exist and be executable (2 ms)
+    × should have all TODO comments removed (9 ms)
+    √ should call `new Promise()`
+    √ should take a single argument (1 ms)
+    √ `resolve()` should be called with a one argument
+    √ `reject()` should be called with a one argument
+    √ should resolve when called with a string argument (1016 ms)
+    √ should reject with an Error object when called without an argument (1007 ms)
+
+  ● getAnonName › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      114 |
+      115 | function checkTodos(source) {
+    > 116 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      117 | }
+      118 |
+      119 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:116:35)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js:52:55)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 7 passed, 8 total
+Snapshots:   0 total
+Time:        4.548 s
+Ran all test suites matching /ex1-johnWho.test.js/i.
+
+2021-11-20 01:34:10 info: ---------------------------------------
+2021-11-20 01:34:10 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 01:34:10 info: ---------------------------------------
+2021-11-20 01:34:17 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js
+  getAnonName
+    √ should exist and be executable (2 ms)
+    × should have all TODO comments removed (5 ms)
+    √ should call `new Promise()` (1 ms)
+    √ should take a single argument
+    √ `resolve()` should be called with a one argument (1 ms)
+    √ `reject()` should be called with a one argument
+    √ should resolve when called with a string argument (1013 ms)
+    √ should reject with an Error object when called without an argument (1006 ms)
+
+  ● getAnonName › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      114 |
+      115 | function checkTodos(source) {
+    > 116 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      117 | }
+      118 |
+      119 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:116:35)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js:49:55)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 7 passed, 8 total
+Snapshots:   0 total
+Time:        4.305 s
+Ran all test suites matching /ex1-johnWho.test.js/i.
+
+2021-11-20 01:34:48 info: ---------------------------------------
+2021-11-20 01:34:48 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 01:34:48 info: ---------------------------------------
+2021-11-20 01:34:55 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js
+  getAnonName
+    √ should exist and be executable (2 ms)
+    × should have all TODO comments removed (5 ms)
+    √ should call `new Promise()`
+    √ should take a single argument (1 ms)
+    √ `resolve()` should be called with a one argument
+    √ `reject()` should be called with a one argument
+    √ should resolve when called with a string argument (1005 ms)
+    √ should reject with an Error object when called without an argument (1017 ms)
+
+  ● getAnonName › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      114 |
+      115 | function checkTodos(source) {
+    > 116 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      117 | }
+      118 |
+      119 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:116:35)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js:52:55)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 7 passed, 8 total
+Snapshots:   0 total
+Time:        4.265 s
+Ran all test suites matching /ex1-johnWho.test.js/i.
+
+2021-11-20 01:35:42 info: ---------------------------------------
+2021-11-20 01:35:42 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-20 01:35:42 info: ---------------------------------------
+2021-11-20 01:35:49 info: All unit tests passed.
+2021-11-20 01:35:55 info: All steps were completed successfully
+2021-11-20 01:41:31 info: -------------------------------------------------
+2021-11-20 01:41:31 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-11-20 01:41:31 info: -------------------------------------------------
+2021-11-20 01:41:36 error: *** Unit Test Error Report ***
+
+  console.log
+    This is a double digit number!
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:30:30
+
+  console.log
+    Expected a double digit number but got 5
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:35:29
+
+  console.log
+    Expected a double digit number but got 123
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:39:29
+
+
+2021-11-20 01:41:39 error: *** ESLint Report ***
+
+ex2-checkDoubleDigits.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-11-20 01:43:14 info: -------------------------------------------------
+2021-11-20 01:43:14 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-11-20 01:43:14 info: -------------------------------------------------
+2021-11-20 01:43:18 error: *** Unit Test Error Report ***
+
+  console.log
+    This is a double digit number!
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:30:30
+
+  console.log
+    Expected a double digit number but got 5
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:35:29
+
+  console.log
+    Expected a double digit number but got 123
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:39:29
+
+
+2021-11-20 01:43:21 error: *** ESLint Report ***
+
+ex2-checkDoubleDigits.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-11-20 01:44:55 info: -------------------------------------------------
+2021-11-20 01:44:55 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-11-20 01:44:55 info: -------------------------------------------------
+2021-11-20 01:45:00 error: *** Unit Test Error Report ***
+
+  console.log
+    This is a double digit number!
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:30:30
+
+  console.log
+    Expected a double digit number but got 5
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:35:29
+
+  console.log
+    Expected a double digit number but got 123
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:39:29
+
+
+2021-11-20 01:45:02 error: *** ESLint Report ***
+
+ex2-checkDoubleDigits.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-11-20 01:45:50 info: -------------------------------------------------
+2021-11-20 01:45:50 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-11-20 01:45:50 info: -------------------------------------------------
+2021-11-20 01:45:55 error: *** Unit Test Error Report ***
+
+  console.log
+    This is a double digit number!
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:27:30
+
+  console.log
+    Expected a double digit number but got 5
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:32:29
+
+  console.log
+    Expected a double digit number but got 123
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:36:29
+
+
+2021-11-20 01:46:27 info: -------------------------------------------------
+2021-11-20 01:46:27 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-11-20 01:46:27 info: -------------------------------------------------
+2021-11-20 01:46:32 error: *** Unit Test Error Report ***
+
+  console.log
+    This is a double digit number!
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:27:30
+
+  console.log
+    Expected a double digit number but got 5
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:32:29
+
+  console.log
+    Expected a double digit number but got 123
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:36:29
+
+
+2021-11-20 01:48:15 info: -------------------------------------------------
+2021-11-20 01:48:15 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-11-20 01:48:15 info: -------------------------------------------------
+2021-11-20 01:48:20 error: *** Unit Test Error Report ***
+
+  console.log
+    This is a double digit number!
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:27:30
+
+  console.log
+    undefined
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:32:29
+
+  console.log
+    undefined
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:36:29
+
+
+2021-11-20 01:49:52 info: -------------------------------------------------
+2021-11-20 01:49:52 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-11-20 01:49:52 info: -------------------------------------------------
+2021-11-20 01:49:57 info: All unit tests passed.
+2021-11-20 01:50:02 info: All steps were completed successfully
+2021-11-20 01:50:10 info: -------------------------------------------------
+2021-11-20 01:50:10 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-11-20 01:50:10 info: -------------------------------------------------
+2021-11-20 01:50:14 info: All unit tests passed.
+2021-11-20 01:50:20 info: All steps were completed successfully
+2021-11-20 01:50:46 info: -------------------------------------------------
+2021-11-20 01:50:46 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-11-20 01:50:46 info: -------------------------------------------------
+2021-11-20 01:50:51 info: All unit tests passed.
+2021-11-20 01:50:57 info: All steps were completed successfully
+2021-11-20 09:16:38 info: ----------------------------------------
+2021-11-20 09:16:38 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-11-20 09:16:38 info: ----------------------------------------
+2021-11-20 09:16:43 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDice.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js
+  rollDice
+    √ should exist and be executable (2 ms)
+    × should have all TODO comments removed (7 ms)
+    √ should call `new Promise()`
+    × `resolve()` should be called with a one argument (2 ms)
+    √ `reject()` should be called with a one argument (1 ms)
+    √ should resolve when the dice settles successfully (1 ms)
+    √ should reject with an Error when the dice rolls off the table (1 ms)
+
+  ● rollDice › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      114 |
+      115 | function checkTodos(source) {
+    > 116 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      117 | }
+      118 |
+      119 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:116:35)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:39:55)
+
+  ● rollDice › `resolve()` should be called with a one argument
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      44 |
+      45 |   test('`resolve()` should be called with a one argument', () => {
+    > 46 |     expect(state.resolve).toBe(1);
+         |                           ^
+      47 |   });
+      48 |
+      49 |   test('`reject()` should be called with a one argument', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:46:27)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 5 passed, 7 total
+Snapshots:   0 total
+Time:        2.332 s
+Ran all test suites matching /ex3-rollDice.test.js/i.
+
+2021-11-20 09:17:13 info: ----------------------------------------
+2021-11-20 09:17:13 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-11-20 09:17:13 info: ----------------------------------------
+2021-11-20 09:17:19 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDice.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js
+  rollDice
+    √ should exist and be executable (2 ms)
+    × should have all TODO comments removed (6 ms)
+    √ should call `new Promise()`
+    √ `resolve()` should be called with a one argument (1 ms)
+    √ `reject()` should be called with a one argument
+    √ should resolve when the dice settles successfully (2 ms)
+    √ should reject with an Error when the dice rolls off the table (1 ms)
+
+  ● rollDice › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      114 |
+      115 | function checkTodos(source) {
+    > 116 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      117 | }
+      118 |
+      119 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:116:35)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:39:55)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        2.39 s
+Ran all test suites matching /ex3-rollDice.test.js/i.
+
+2021-11-20 09:20:20 info: ----------------------------------------
+2021-11-20 09:20:20 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-11-20 09:20:20 info: ----------------------------------------
+2021-11-20 09:20:25 info: All unit tests passed.
+2021-11-20 09:20:30 info: All steps were completed successfully
+2021-11-22 02:10:18 info: ----------------------------------------
+2021-11-22 02:10:18 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-11-22 02:10:18 info: ----------------------------------------
+2021-11-22 02:10:25 info: All unit tests passed.
+2021-11-22 02:10:28 error: *** ESLint Report ***
+
+ex3-rollDice.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-11-22 02:11:04 info: ----------------------------------------
+2021-11-22 02:11:04 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-11-22 02:11:04 info: ----------------------------------------
+2021-11-22 02:11:10 info: All unit tests passed.
+2021-11-22 02:11:15 info: All steps were completed successfully
+2021-11-22 02:53:19 info: --------------------------------------------
+2021-11-22 02:53:19 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-11-22 02:53:19 info: --------------------------------------------
+2021-11-22 02:53:25 info: All unit tests passed.
+2021-11-22 02:53:30 info: All steps were completed successfully
+2021-11-23 12:56:18 info: ----------------------------------------------
+2021-11-23 12:56:18 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2021-11-23 12:56:18 info: ----------------------------------------------
+2021-11-23 12:56:25 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex5-pokerDiceChain.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js
+  ex5-pokerDiceChain
+    √ should exist and be executable (3 ms)
+    × should have all TODO comments removed (11 ms)
+    √ should resolve when all dices settle successfully (4 ms)
+    √ should reject with an Error when a dice rolls off the table (1 ms)
+
+  ● ex5-pokerDiceChain › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      114 |
+      115 | function checkTodos(source) {
+    > 116 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      117 | }
+      118 |
+      119 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:116:35)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js:19:55)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        3.187 s
+Ran all test suites matching /ex5-pokerDiceChain.test.js/i.
+
+2021-11-23 12:56:54 info: ----------------------------------------------
+2021-11-23 12:56:54 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2021-11-23 12:56:54 info: ----------------------------------------------
+2021-11-23 12:56:59 info: All unit tests passed.
+2021-11-23 12:57:05 info: All steps were completed successfully
+2021-11-23 01:34:10 info: ---------------------------------------
+2021-11-23 01:34:10 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-11-23 01:34:10 info: ---------------------------------------
+2021-11-23 01:34:18 info: All unit tests passed.
+2021-11-23 01:34:24 info: All steps were completed successfully
+2021-11-23 01:34:35 info: -------------------------------------------------
+2021-11-23 01:34:35 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-11-23 01:34:35 info: -------------------------------------------------
+2021-11-23 01:34:39 info: All unit tests passed.
+2021-11-23 01:34:45 info: All steps were completed successfully
+2021-11-23 01:34:55 info: ----------------------------------------
+2021-11-23 01:34:55 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-11-23 01:34:55 info: ----------------------------------------
+2021-11-23 01:35:00 info: All unit tests passed.
+2021-11-23 01:35:05 info: All steps were completed successfully
+2021-11-23 01:35:12 info: --------------------------------------------
+2021-11-23 01:35:12 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-11-23 01:35:12 info: --------------------------------------------
+2021-11-23 01:35:17 info: All unit tests passed.
+2021-11-23 01:35:20 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  40:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-11-23 01:36:05 info: --------------------------------------------
+2021-11-23 01:36:05 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-11-23 01:36:05 info: --------------------------------------------
+2021-11-23 01:36:09 info: All unit tests passed.
+2021-11-23 01:36:14 info: All steps were completed successfully
+2021-11-23 01:36:35 info: ----------------------------------------------
+2021-11-23 01:36:35 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2021-11-23 01:36:35 info: ----------------------------------------------
+2021-11-23 01:36:40 info: All unit tests passed.
+2021-11-23 01:36:45 info: All steps were completed successfully
