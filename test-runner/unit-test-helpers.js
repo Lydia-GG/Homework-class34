@@ -41,6 +41,7 @@ function beforeAllHelper(testFilePath, options = {}) {
         intervalSpy = jest.spyOn(global, 'setInterval').mockImplementation();
       }
       consoleLogSpy = jest.spyOn(console, 'log').mockImplementation();
+      // consoleLogSpy = jest.spyOn(console, 'log').mockImplementation(() => {});
       result.exported = require(exercisePath);
     } catch (err) {
       console.log('Error attempting to `require`:', err);
