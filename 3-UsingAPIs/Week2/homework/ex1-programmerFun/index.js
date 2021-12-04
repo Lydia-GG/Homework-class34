@@ -47,7 +47,7 @@ function renderError(error) {
 
 async function main() {
   try {
-    const imageData = await requestData('https://xkcd.now.shx/?comic=latest');
+    const imageData = await requestData('https://xkcd.now.sh/?comic=latest');
     renderImage(imageData);
   } catch (error) {
     renderError(error);

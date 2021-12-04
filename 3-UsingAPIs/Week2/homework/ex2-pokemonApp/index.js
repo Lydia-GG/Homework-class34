@@ -23,18 +23,11 @@ Try and avoid using global variables. As much as possible, try and use function
 parameters and return values to pass data back and forth.
 ------------------------------------------------------------------------------*/
 async function fetchData(url) {
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
-    if (response.ok) {
-      return data;
-    } else {
-      throw new Error('something went wrong');
-    }
-  } catch (error) {
-    console.log(error.message);
-    throw error;
+  const response = await fetch(url);
+  if (response.ok) {
+    return response.json();
   }
+  throw new Error('something went wrong');
 }
 
 function fetchAndPopulatePokemons() {
@@ -64,8 +57,7 @@ function fetchAndPopulatePokemons() {
         fetchImage(event);
       });
     } catch (error) {
-      console.log(error);
-      throw error;
+      console.log(error.message);
     }
   });
 }
@@ -82,16 +74,12 @@ async function fetchImage(event) {
     const data = await fetchData(event.target.value);
     image.src = data.sprites.front_default;
   } catch (error) {
-    console.log(error);
+    console.log(error.message);
   }
 }
 
-async function main() {
-  try {
-    fetchAndPopulatePokemons();
-  } catch (error) {
-    console.log(error);
-  }
+function main() {
+  fetchAndPopulatePokemons();
 }
 
 window.addEventListener('load', main);
