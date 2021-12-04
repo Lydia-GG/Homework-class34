@@ -26,13 +26,18 @@ async function fetchData(url) {
   try {
     const response = await fetch(url);
     const data = await response.json();
-    return data;
+    if (response.ok) {
+      return data;
+    } else {
+      throw new Error('something went wrong');
+    }
   } catch (error) {
-    console.log(error);
+    console.log(error.message);
+    throw error;
   }
 }
 
-function fetchAndPopulatePokemons(data) {
+function fetchAndPopulatePokemons() {
   const mainDiv = document.createElement('div');
   document.body.appendChild(mainDiv);
   mainDiv.setAttribute('id', 'main-div');
@@ -43,23 +48,29 @@ function fetchAndPopulatePokemons(data) {
   const select = document.createElement('select');
   mainDiv.appendChild(select);
 
-  btn.addEventListener('click', () => {
-    const results = data.results;
-    console.log(results);
-    results.forEach((result) => {
-      const option = document.createElement('option');
-      select.appendChild(option);
-      option.textContent = result.name;
-      option.value = result.name;
-    });
-    select.addEventListener('change', () => {
-      fetchImage();
-    });
+  btn.addEventListener('click', async () => {
+    try {
+      const data = await fetchData(
+        'https://pokeapi.co/api/v2/pokemon?limit=151%27'
+      );
+      const results = data.results;
+      results.forEach((result) => {
+        const option = document.createElement('option');
+        select.appendChild(option);
+        option.textContent = result.name;
+        option.value = result.url;
+      });
+      select.addEventListener('change', (event) => {
+        fetchImage(event);
+      });
+    } catch (error) {
+      console.log(error);
+      throw error;
+    }
   });
 }
 
-async function fetchImage() {
-  console.log(event.target.value);
+async function fetchImage(event) {
   let image = document.querySelector('img');
   if (!image) {
     image = document.createElement('img');
@@ -68,12 +79,8 @@ async function fetchImage() {
     image.setAttribute('alt', pokemonName);
   }
   try {
-    const response = await fetch(
-      `https://pokeapi.co/api/v2/pokemon/${event.target.value}`
-    );
-    const data = await response.json();
+    const data = await fetchData(event.target.value);
     image.src = data.sprites.front_default;
-    console.log(data);
   } catch (error) {
     console.log(error);
   }
@@ -81,11 +88,7 @@ async function fetchImage() {
 
 async function main() {
   try {
-    const result = await fetchData(
-      'https://pokeapi.co/api/v2/pokemon?limit=151%27'
-    );
-
-    fetchAndPopulatePokemons(result);
+    fetchAndPopulatePokemons();
   } catch (error) {
     console.log(error);
   }
